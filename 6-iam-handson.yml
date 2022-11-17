@@ -1,0 +1,10 @@
+Resources:
+  User:
+    Type: AWS::IAM::User
+    Properties:
+      UserName: "ironman"
+      LoginProfile:
+        Password: "Loveyou3000times"
+        PasswordResetRequired: true
+
+    
